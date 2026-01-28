@@ -72,10 +72,10 @@ input, textarea, select {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00FF94;
+  background: #00A076;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00CC76;
+  background: #00A076;
 }
