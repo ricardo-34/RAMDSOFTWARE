@@ -9,6 +9,7 @@ import {
 import styles from './home.module.css';
 import { Link } from "react-router-dom";
 import logoRAMD from "../assets/RAMD-LOGO-SINFONDO.png";
+import logoRAMDCOLOR from "../assets/RAMD-LOGO-SINFONDO-CONCOLORES.png";
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -668,7 +669,7 @@ const Home = () => {
           <div className={styles.footerMain}>
             <div className={styles.footerBrand}>
               <img
-                src={logoRAMD}
+                src={logoRAMDCOLOR}
                 alt="RAMD"
                 className={styles.footerLogoRAMD}
               />
